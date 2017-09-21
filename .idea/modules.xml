@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycharts.iml" filepath="$PROJECT_DIR$/easycharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/easycharts-library/easycharts-library.iml" filepath="$PROJECT_DIR$/easycharts-library/easycharts-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/easycharts-samples/easycharts-samples.iml" filepath="$PROJECT_DIR$/easycharts-samples/easycharts-samples.iml" />
     </modules>
