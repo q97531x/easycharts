@@ -7,7 +7,7 @@ import android.graphics.Paint;
  * Created by bo.wei on 2017/9/21.
  */
 
-public class AbstractRenderer {
+public abstract class AbstractRenderer implements ChartRender {
 
     private String label;
 
