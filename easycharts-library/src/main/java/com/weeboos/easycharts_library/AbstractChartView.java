@@ -12,6 +12,9 @@ import android.view.View;
 
 public class AbstractChartView extends View {
 
+    protected float width;
+    protected float height;
+
     public AbstractChartView(Context context) {
         this(context,null);
     }
@@ -37,6 +40,8 @@ public class AbstractChartView extends View {
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
+        width = getWidth();
+        height = getHeight();
     }
 
     @Override

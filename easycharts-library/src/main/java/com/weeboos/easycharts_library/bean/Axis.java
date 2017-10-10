@@ -77,4 +77,15 @@ public class Axis {
     public void setVerticalEndY(float verticalEndY) {
         this.verticalEndY = verticalEndY;
     }
+
+    public void setXY(float width,float height,int padding){
+        setHorizontalStartX(padding);
+        setHorizontalstartY(height-padding);
+        setHorizontalEndX(width-padding);
+        setHorizontalEndY(height-padding);
+        setVerticalStartX(padding);
+        setVerticalStartY(padding);
+        setVerticalEndX(padding);
+        setVerticalEndY(height-padding);
+    }
 }
