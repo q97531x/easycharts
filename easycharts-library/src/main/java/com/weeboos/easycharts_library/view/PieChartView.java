@@ -1,4 +1,4 @@
-package com.weeboos.easycharts_library;
+package com.weeboos.easycharts_library.view;
 
 /**
  * Created by bo.wei on 2017/9/20.

@@ -11,17 +11,17 @@ import com.weeboos.easycharts_library.bean.Axis;
  * 线图渲染器
  */
 
-public class AxisRenderer extends AbstractRenderer{
-    public static final int Default_Axis_Width = 2;
+public class LineAxisRender extends AbstractRender implements AxisRender{
+    public static final int DEFAULT_AXIS_WIDTH = 2;
     private Paint axisPaint;
-    private Axis axis = new Axis();
+    private com.weeboos.easycharts_library.bean.Axis axis = new com.weeboos.easycharts_library.bean.Axis();
 
-    public AxisRenderer() {
+    public LineAxisRender() {
         axisPaint = new Paint();
         axisPaint.setAntiAlias(true);
         axisPaint.setStyle(Paint.Style.STROKE);
         axisPaint.setColor(Color.BLACK);
-        axisPaint.setStrokeWidth(Default_Axis_Width);
+        axisPaint.setStrokeWidth(DEFAULT_AXIS_WIDTH);
     }
 
     /**
@@ -40,11 +40,11 @@ public class AxisRenderer extends AbstractRenderer{
         axisPaint.setStrokeWidth(axisPaintWidth);
     }
 
-    public Axis getAxis() {
+    public com.weeboos.easycharts_library.bean.Axis getAxis() {
         return axis;
     }
 
-    public void setAxis(Axis axis) {
+    public void setAxis(com.weeboos.easycharts_library.bean.Axis axis) {
         this.axis = axis;
     }
 
